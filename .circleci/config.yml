@@ -20,7 +20,7 @@ jobs:
           name: Running tests
           command: |
             . virtualenvironment/bin/activate
-            python /tests/checker.py
+            python test_queries.py
       - store_artifacts:
           path: test-reports/
           destination: python_app
